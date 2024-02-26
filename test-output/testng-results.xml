@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-17T18:33:41 IST" name="Default suite" finished-at="2024-02-17T18:34:19 IST" duration-ms="37957">
+    <groups>
+      <group name="Purchase">
+        <method signature="pageobjectdesign.SubmitOrder(java.util.HashMap)[pri:0, instance:FrameworkDesigne2e.Test.pageobjectdesign@25ce9dc4]" name="SubmitOrder" class="FrameworkDesigne2e.Test.pageobjectdesign"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-02-17T18:33:41 IST" name="Default test" finished-at="2024-02-17T18:34:19 IST" duration-ms="37957">
+      <class name="FrameworkDesigne2e.Test.pageobjectdesign">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameworkDesigne2e.Test.pageobjectdesign@25ce9dc4]" started-at="2024-02-17T18:33:41 IST" name="LaunchApplication" finished-at="2024-02-17T18:33:52 IST" duration-ms="10720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:FrameworkDesigne2e.Test.pageobjectdesign@25ce9dc4]" started-at="2024-02-17T18:33:52 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-02-17T18:34:04 IST" duration-ms="12347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=ADIDAS ORIGINAL, email=Testshiva@gmail.com, Password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameworkDesigne2e.Test.pageobjectdesign@25ce9dc4]" started-at="2024-02-17T18:34:04 IST" name="tearDown" finished-at="2024-02-17T18:34:04 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameworkDesigne2e.Test.pageobjectdesign@25ce9dc4]" started-at="2024-02-17T18:34:04 IST" name="LaunchApplication" finished-at="2024-02-17T18:34:06 IST" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:FrameworkDesigne2e.Test.pageobjectdesign@25ce9dc4]" started-at="2024-02-17T18:34:06 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-02-17T18:34:18 IST" duration-ms="12171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=ZARA COAT 3, email=shetty@gmail.com, Password=Iamking@000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameworkDesigne2e.Test.pageobjectdesign@25ce9dc4]" started-at="2024-02-17T18:34:18 IST" name="tearDown" finished-at="2024-02-17T18:34:19 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FrameworkDesigne2e.Test.pageobjectdesign -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
